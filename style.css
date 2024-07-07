@@ -1,3 +1,32 @@
 body{
   font-family: Anton;
+  max-width: 1084px;
+  margin: 0;
+}
+nav{
+  gap:10vh;
+}
+li{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight:300;
+}
+a{
+  font-color: #000;
+}
+h1{
+  font-size: 20px;
+  font-weight: 400;
+}
+h2{
+  font-size: 16px;
+  font-weight:300;
+}
+p{
+  font-size: 12px;
+  font-weight: 300;
+}
+span{
+  font-size: 10px;
+  font-weight: 200;
 }
