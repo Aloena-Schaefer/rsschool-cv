@@ -6,6 +6,11 @@ body{
 nav{
   gap:10vh;
 }
+.container-nav {
+  width: cover;
+  heigh: 10vh;
+  background-color: lightgray;
+}
 li{
   text-decoration: none;
   font-size: 14px;
