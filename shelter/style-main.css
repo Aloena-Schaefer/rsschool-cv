@@ -1,0 +1,570 @@
+body {
+    max-width: 1280px;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+     min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/** {outline: 1px solid red;}*/
+
+.header {
+    width: 1251px;
+    height: 908px;
+    background: url("assets-main/img-main/start-screen-background.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.container-nav {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+     margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.container-cozy-house {
+    width: 184px;
+    height: 60px;
+}
+
+.p-shelter-pets {
+  color: #D9D9D9;
+  font-family: sans-serif;  
+  font-size: 16px;
+}
+
+.li-nav {
+    color: #D9D9D9;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.a-nav {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.a-nav-about {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    border-bottom:  4px solid #F1CDB3;
+}
+
+  a {
+    color: #D9D9D9;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+  a:hover {
+    color: darkgrey;
+}
+
+  h2 {
+    color: #F1CDB3;
+    font-size: 29px;
+    font-family: "Georgia";
+    font-weight: 400; 
+    letter-spacing: 0.1em;
+    margin-bottom: 1px;
+}
+
+.container-header {
+    width: 1200px;
+    height: 728px;
+    display: flex;
+     margin: 0 auto;
+     justify-content: space-between;
+
+}
+
+.container-header-right {
+    width: 698px;
+    height: 728px;
+    
+}
+
+.container-header-left {
+    width: 460px;
+    height: 322px ;
+   padding-top: 150px;
+}
+
+h1 {
+    font-family: "Georgia"; 
+    font-size: 40px;
+    
+    color: #D9D9D9;
+}
+
+.p-header-offer {
+   color: #CDCDCD; 
+   font-family: Arial;
+   /*font-weight: regular;*/
+
+   font-size: 15px;
+}
+
+.btn {
+    display: block;
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    /*padding: 17px 47px;*/
+    border: 1px solid #F1CDB3;
+    width: 207px;
+    height: 52px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #F1CDB3;
+}
+
+.sec-about {
+    width: 1280px;
+    height: 588px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    height: 408px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+h3 {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C4C4C;
+}
+
+.sec-about-left {
+    width: 560px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-about-right {
+    width: 640px;
+
+}
+
+.p-btn {
+    color: #292929;
+    font-family: "Georgia"; 
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+}
+
+.sec-our-friends {
+    width: 1280px;
+    height: 877px;
+    background: #F6F6F6;
+
+}
+
+.container1 {
+    width: 1200px;
+    height: 697px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.container-our-cat-dogs {
+    width: 1200px;
+    height: 435px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.cat-katrine {
+    width: 270px;
+    height: 435px;
+}
+
+.p-katrine-jennifer-woody {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    color: #545454;
+    text-align: center;
+}
+
+.btn-learn-more {
+    width: 187px;
+    height: 52px;
+    display: block;
+    border: solid 2px #F1CDB3;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p-learn-more {
+   font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929; 
+
+}
+
+.btn-get-to-know {
+   width: 261px;
+    height: 52px;
+    display: block;
+    border: solid 1px #F1CDB3; 
+    background: #F1CDB3;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p-get-to-know {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929; 
+}
+
+.h3-our-friends {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec-how-can-help-shelter {
+    width: 1280px;
+    height: 611px;
+
+}
+
+.container2 {
+    width: 1200px;
+    height: 431px;
+    margin: 0 auto;
+}
+
+.container-how-can-help-logo {
+    width: 1026px;
+    height: 281px;
+    margin: 0 auto;
+
+
+}
+
+.container-how-can-help-logo-row1 {
+    width: 1026px;  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+
+}
+.container-how-can-help-logo-row2 {
+    width: 1026px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.p-logo {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-transportation {
+    
+
+}
+
+.container-bowls-and-cups {
+
+}
+
+.container-shampoos {
+
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+
+}    
+
+.sec-you-can-donation {
+    background: #F6F6F6;
+    width: 1280px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container-donation {
+    width: 915px;
+    height: 282px;
+    display: flex;
+    padding-top: 60px;
+   padding-bottom: 60px;
+   gap: 20px;  
+
+}
+
+.img-dog-donation {
+   width: 505px; 
+   height: 261px;
+   margin-top: 30px;
+
+
+}
+
+.container-p-dog-donation {
+    width: 380px;
+    height: 282px;
+
+}
+
+.h3-donation {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.name-bank {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.btn-bank {
+    width: 349px;
+    height: 43px;
+     display: block;
+    border: solid 1px #F1CDB3; 
+    background: #F1CDB3;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    text-align: center; 
+    margin-bottom: 20px; 
+
+}
+
+.p-credit-card {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.p-legal {
+    color: #B2B2B2;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container-btn-bank {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /*width: 319px;
+    height: 23px;*/
+    margin: 0 auto;
+    
+
+}
+
+.btn-bank-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+
+}
+
+.p-bank {
+    display: flex;
+    text-align: center;
+    margin-top: -10px;
+
+
+    /*width: 274px;
+    height: 23px;*/
+
+}
+
+.footer {
+    width: 1280px;
+    height: 350px;
+    background: url("assets-main/img-main/footer-gradient-background.png");
+    background-size: cover;
+   /* margin: 0 auto;
+    padding: 20px;*/
+
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+align-items: flex-end;
+justify-content: center;
+   
+
+}
+.container-footer {
+    width: 1200px;
+    height: 310px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer-left {
+    width: 278px;
+    height: 234px;
+
+}
+
+.container-footer-middle {
+     width: 302px;
+    height: 234px;
+}
+
+.container-footer-right {
+    width: 300px;
+    height: 310px;
+}
+
+.h3-footer {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.container-email {
+    display: flex;
+    gap: 20px;
+}
+
+.container-phone {
+    display: flex;
+    gap: 20px;
+}
+
+.container-1central-street {
+    display: flex;
+    gap: 20px;
+}
+
+.container-18south-park {
+    display: flex;
+    gap: 20px;
+}
+
+.p-email {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.p-phone {
+color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -3px;
+}
+
+.p-1central-street {
+   color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -1px;
+}
+
+.p-18south-park {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.img-email {
+    display: flex;
+    margin-top: 5px;
+}
+
+.img-phone {
+    margin-top: -5px;
+}
+
+.img-drop {
+    margin-top: 10px; 
+}
+
+
+
+
+
+
+
