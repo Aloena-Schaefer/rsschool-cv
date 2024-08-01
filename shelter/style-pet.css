@@ -1,0 +1,350 @@
+body {
+    max-width: 1280px;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+     min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/** {outline: 1px solid red;}*/
+
+.header {
+    width: 1280px;
+    height: 120px;
+    background: white;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.container-nav {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.container-cozy-house {
+    width: 184px;
+    height: 60px;
+}
+
+.p-shelter-pets {
+  color: #292929;
+  font-family: Arial;  
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.li-nav {
+    color: #545454;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.a-nav {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.a-nav-our-pets {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    transition: 0.3s;
+    border-bottom:  4px solid #F1CDB3;
+}
+
+  a {
+    color: #545454;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+  a:hover {
+    color: darkgrey;
+}
+
+  h2 {
+    color: #545454;
+    font-size: 32px;
+    font-family: "Georgia";
+    font-weight: 400; 
+    
+    margin-bottom: 1px;
+}
+
+h3 {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sec-our-friends {
+    width: 1280px;
+    height: 1342px;
+    background: #F6F6F6;
+}
+
+.container1 {
+    width: 1200px;
+    height: 1162px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-our-cat-dogs {
+    width: 1200px;
+    height: 930px;
+    margin: 0 auto;
+}
+
+.container-our-cat-dogs-row1 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container-our-cat-dogs-row2 {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.cat-katrine {
+    width: 270px;
+    height: 435px;
+}
+
+.p-katrine-jennifer-woody {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    color: #545454;
+    text-align: center;
+}
+
+.btn-learn-more {
+    width: 187px;
+    height: 52px;
+    display: block;
+    border: solid 2px #F1CDB3;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p-learn-more {
+   font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929; 
+
+}
+
+.h3-our-friends {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec-circles {
+    width: 340px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+.circle1 {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    border: solid 2px #CDCDCD;
+    transition: all 0.5s ease;
+   
+}
+
+.circle3 {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    border: solid 2px #F1CDB3;
+    background: #F1CDB3;
+    transition: all 0.5s ease;
+    
+}
+
+.circle4 {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    border: solid 2px #F1CDB3;
+    transition: all 0.5s ease;
+   
+}
+
+.p-circle1 {
+    color: #CDCDCD;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.p-circle3 {
+    color: #292929;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer {
+    width: 1280px;
+    height: 350px;
+    background: url("assets-main/img-main/footer-gradient-background.png");
+    background-size: cover;
+   /* margin: 0 auto;
+    padding: 20px;*/
+
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+.container-footer {
+    width: 1200px;
+    height: 310px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer-left {
+    width: 278px;
+    height: 234px;
+
+}
+
+.container-footer-middle {
+     width: 302px;
+    height: 234px;
+}
+
+.container-footer-right {
+    width: 300px;
+    height: 310px;
+}
+
+.h3-footer {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.container-email {
+    display: flex;
+    gap: 20px;
+}
+
+.container-phone {
+    display: flex;
+    gap: 20px;
+}
+
+.container-1central-street {
+    display: flex;
+    gap: 20px;
+}
+
+.container-18south-park {
+    display: flex;
+    gap: 20px;
+}
+
+.p-email {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.p-phone {
+color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -3px;
+}
+
+.p-1central-street {
+   color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -1px;
+}
+
+.p-18south-park {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.img-email {
+    display: flex;
+    margin-top: 5px;
+}
+
+.img-phone {
+    margin-top: -5px;
+}
+
+.img-drop {
+    margin-top: 10px; 
+}
+
+
+
+
+
+
+
